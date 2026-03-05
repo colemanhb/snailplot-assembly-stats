@@ -76,7 +76,8 @@
       var queries = window.location.href.replace(/^.+\?/,'').split('&')
       var params = []
       params["path"] = ["json/"]
-      params["assembly"] = ["output"]
+      params["assembly"] = ["ipe_clean"]
+      params["altAssembly"] = ["Ipe_original"]
       params["view"] = ["circle"]
       params["altView"] = ["cumulative", "table"]
       queries.forEach(function(q){
