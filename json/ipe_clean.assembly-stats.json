@@ -1,4 +1,12 @@
 {
+   "busco": {
+      "complete": 2265,
+      "single": 1615,
+      "duplicated": 650,
+      "fragmented": 7,
+      "missing": 54,
+      "total": 2326
+   }
    "assembly" : 732498297,
    "ATGC" : 732498297,
    "N" : 0,
