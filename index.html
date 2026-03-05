@@ -78,8 +78,8 @@
       params["path"] = ["json/"]
       params["assembly"] = ["ipe_clean"]
       params["altAssembly"] = ["Ipe_original"]
-      params["view"] = ["circle"]
-      params["altView"] = ["cumulative", "table"]
+      params["view"] = ["compare"]
+      params["altView"] = ["circle, cumulative", "table"]
       queries.forEach(function(q){
         parts = q.split('=')
         if (!params[parts[0]]) params[parts[0]] = [];
